@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E2C6C76291A1EE6007AC4EE /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2C6C75291A1EE6007AC4EE /* Task.swift */; };
 		4E5A6B92291A10A6004B0882 /* FigmaDesignCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5A6B91291A10A6004B0882 /* FigmaDesignCodeApp.swift */; };
 		4E5A6B94291A10A6004B0882 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5A6B93291A10A6004B0882 /* ContentView.swift */; };
 		4E5A6B96291A10A7004B0882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E5A6B95291A10A7004B0882 /* Assets.xcassets */; };
@@ -14,6 +15,10 @@
 		4E5A6BA3291A10A7004B0882 /* FigmaDesignCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5A6BA2291A10A7004B0882 /* FigmaDesignCodeTests.swift */; };
 		4E5A6BAD291A10A7004B0882 /* FigmaDesignCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5A6BAC291A10A7004B0882 /* FigmaDesignCodeUITests.swift */; };
 		4E5A6BAF291A10A7004B0882 /* FigmaDesignCodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5A6BAE291A10A7004B0882 /* FigmaDesignCodeUITestsLaunchTests.swift */; };
+		4E5A6BBE291A16DB004B0882 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5A6BBD291A16DB004B0882 /* TaskListView.swift */; };
+		4E5A6BC0291A16E7004B0882 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5A6BBF291A16E7004B0882 /* SettingsView.swift */; };
+		4E5A6BC2291A16F2004B0882 /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5A6BC1291A16F2004B0882 /* InboxView.swift */; };
+		4E5A6BC4291A16FF004B0882 /* RemaindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5A6BC3291A16FF004B0882 /* RemaindersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E2C6C75291A1EE6007AC4EE /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		4E5A6B8E291A10A6004B0882 /* FigmaDesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FigmaDesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5A6B91291A10A6004B0882 /* FigmaDesignCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaDesignCodeApp.swift; sourceTree = "<group>"; };
 		4E5A6B93291A10A6004B0882 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +50,10 @@
 		4E5A6BA8291A10A7004B0882 /* FigmaDesignCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FigmaDesignCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5A6BAC291A10A7004B0882 /* FigmaDesignCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaDesignCodeUITests.swift; sourceTree = "<group>"; };
 		4E5A6BAE291A10A7004B0882 /* FigmaDesignCodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaDesignCodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4E5A6BBD291A16DB004B0882 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		4E5A6BBF291A16E7004B0882 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		4E5A6BC1291A16F2004B0882 /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
+		4E5A6BC3291A16FF004B0882 /* RemaindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemaindersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +106,13 @@
 			children = (
 				4E5A6B91291A10A6004B0882 /* FigmaDesignCodeApp.swift */,
 				4E5A6B93291A10A6004B0882 /* ContentView.swift */,
+				4E5A6BBD291A16DB004B0882 /* TaskListView.swift */,
+				4E5A6BBF291A16E7004B0882 /* SettingsView.swift */,
+				4E5A6BC1291A16F2004B0882 /* InboxView.swift */,
+				4E5A6BC3291A16FF004B0882 /* RemaindersView.swift */,
 				4E5A6B95291A10A7004B0882 /* Assets.xcassets */,
 				4E5A6B97291A10A7004B0882 /* Preview Content */,
+				4E2C6C75291A1EE6007AC4EE /* Task.swift */,
 			);
 			path = FigmaDesignCode;
 			sourceTree = "<group>";
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E5A6BC4291A16FF004B0882 /* RemaindersView.swift in Sources */,
 				4E5A6B94291A10A6004B0882 /* ContentView.swift in Sources */,
+				4E5A6BC0291A16E7004B0882 /* SettingsView.swift in Sources */,
+				4E5A6BC2291A16F2004B0882 /* InboxView.swift in Sources */,
 				4E5A6B92291A10A6004B0882 /* FigmaDesignCodeApp.swift in Sources */,
+				4E2C6C76291A1EE6007AC4EE /* Task.swift in Sources */,
+				4E5A6BBE291A16DB004B0882 /* TaskListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
